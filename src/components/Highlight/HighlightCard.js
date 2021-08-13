@@ -22,6 +22,7 @@ const useStyles = makeStyles({
 
 export default function HighlightCard({ title, count, type }) {
     const styles = useStyles({ type });
+
     return (
         <Card className={styles.wrapper}>
             <CardContent>

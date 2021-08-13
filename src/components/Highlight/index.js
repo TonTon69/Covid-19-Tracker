@@ -4,6 +4,7 @@ import { Grid } from "@material-ui/core";
 
 export default function Highlight({ report }) {
     const data = report && report.length ? report[report.length - 1] : [];
+
     const summary = [
         {
             title: "Số ca nhiễm",
